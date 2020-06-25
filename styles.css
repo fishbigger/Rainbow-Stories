@@ -86,15 +86,51 @@ header .logo a{
 
  .social-media{
     padding: 20px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
     justify-content: center;
+    text-align: center;
  }
  .icon{
-    width: 350px;
+    width: 175px;
     margin: 20px;
     margin:auto;
     padding: 50px;
     /* border-radius: 50%; */
+ } 
+
+.form{
+    text-align: center;
+}
+
+.message{
+    padding: 10px;
+    padding-bottom: 12.5%;
+    text-align: center;
+    width: 75%;
+    font-size: 14pt;
+    margin: 10px;
+}
+
+ .input{
+     text-align: center;
+     width: 75%;
+     padding: 10px;
+     font-size: 14pt;
+     margin: 10px;
+ }
+ .submit{
+     width: 70%;
+     text-align: center;
+     padding: 10px;
+     font-size: 14pt;
+     margin: 10px;
+     border-radius: 5px;
+ }
+
+ .submit:hover{
+    background-color: rgb(145, 145, 145);
+ }
+
+ .form{
+     padding: none;
+     margin: 10px;
  }
