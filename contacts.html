@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rainbow Stories</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a class="navlinks" href="index.html">Home</a></li>
+                <li><a class="navlinks" href="aboutme.html">About Me</a></li>
+                <li><a class="navlinks" href="contacts.html">Contacts</a></li>   
+            </ul> 
+        </nav>
+        <div class="logo"><a href="index.html">Rainbow Stories Logo</a></div>
+        <div class="main">
+            <h1 class="title">Contacts</h1>
+            <h2 class="subtitle title">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h2>
+        </div>
+    </header>
+    <!-- <section class="social-media">
+        <img class="icon" src="twitter.png" alt="Rainbow Stories Twitter">
+        <img class="icon" src="facebook.png" alt="Rainbow Stories Facebook">
+        <img class="icon" src="instagram.png" alt="Rainbow Stories Instagram">
+    </section> -->
+    <form class="contact" action="contact.php">
+        <input type="text" name="name" class="name" placeholder="Enter you full name" pattern=[A-Z\sa-z]{3,20} required>
+        <input type="email" name="email" class="email" placeholder="Enter your email address" required>
+        <button type="submit" name="submit" class="submit">Send Message</button>
+    </form>
+</body>
+</html>
