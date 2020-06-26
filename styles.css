@@ -168,12 +168,12 @@ header .logo a {
   flex-wrap: wrap;
   justify-content: center;
 
-  float:center;
+  float: center;
   position: relative;
   width: 30%;
-  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
-  margin:1.66%;
-  overflow:hidden;
+  padding-bottom: 30%; /* = width for a 1:1 aspect ratio */
+  margin: 1.66%;
+  overflow-x: hidden;
 }
 
 .about-box {
@@ -184,47 +184,98 @@ header .logo a {
   /* text-align: center; */
 }
 
-.campfire{
-    width: 45%;
-    padding: 20px;
-    float: left;
+.campfire {
+  width: 45%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+.court {
+  max-width: 45%;
+  padding: 10px;
+  float: right;
+}
+
+.squirrel {
+  max-width: 45%;
+  padding: 20px;
+  float: left;
+}
+
+.scared {
+  max-width: 45%;
+  padding: 20px;
+  float: right;
+  text-align: center;
+}
+
+.confidence {
+  max-width: 45%;
+  padding: 20px;
+  float: right;
+  text-align: center;
+}
+.campfire-img {
+  max-width: 40%;
+  padding: 20px;
+  float: right;
+  padding-right: 40px;
+}
+
+.opening {
+  max-width: 45%;
+  padding: 20px;
+  float: left;
+  text-align: center;
+}
+
+@media screen and (max-width: 807px) {
+  .campfire {
+    float: none;
+    margin: auto;
+  }
+
+  .court {
+    float: none;
+  }
+
+  .squirrel {
+    display: none;
+  }
+
+  .scared {
+    float: none;
+    margin: auto;
+  }
+
+  .confidence {
+    float: none;
+    margin: auto;
+  }
+  .campfire-img {
+    float: none;
+    margin: auto;
+  }
+
+  .opening {
+    float: none;
+    margin: auto;
+  }
+  .main-content {
     text-align: center;
+  }
 }
 
-.court{
-    width: 45%;
-    padding: 10px;
-    float: right;
-}
-
-.squirrel{
-    width: 45%;
-    padding: 20px;
-    float: left;
-}
-
-.scared{
-    width: 45%;
-    padding: 20px;
-    float: right;
-    text-align: center;
-}
-
-.confidence{
-    width: 45%;
-    padding: 20px;
-    float: right;
-    text-align: center;
-}
-.bath{
-    width: 40%;
-    padding: 20px;
-    float: right;
-}
-
-.opening{
-    width: 45%;
-    padding: 20px;
-    float: left;
-    text-align: center;
+@media screen and (max-width: 700px) {
+  .logo {
+    /* float: none;
+    padding-top: 40px;
+    display: table;
+    margin: auto; */
+    visibility: hidden;
+  }
+  .large-logo{
+      margin-top: 50px;
+  }
 }
