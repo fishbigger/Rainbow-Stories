@@ -1,143 +1,230 @@
-
-
-body{
-    margin: 0px;
-    padding: 0px;
-    font-family: 'Roboto' ;
-    
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Roboto";
+  overflow-x: hidden;
 }
 
-.main{
-    border: 5px #ffffff solid;
-    -webkit-backdrop-filter: blur(4px);
-    backdrop-filter: blur(4px);
-    display: table;
+.main {
+  border: 5px #ffffff solid;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  display: table;
+  padding: 20px 40px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 10%;
+  /* text-align: center; */
+}
+
+.title {
+  color: #ffffff;
+  text-align: center;
+  font-size: 50px;
+}
+.subtitle {
+  font-size: 25px;
+}
+
+ul li {
+  display: inline-block;
+}
+ul {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+img {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  padding: 20px;
+  background-color: #000000;
+
+  background-image: url("Landscape.jpeg");
+  position: center;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+
+  margin-bottom: 5%;
+}
+
+header .logo a {
+  background-image: url("LogoText.png");
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  display: inline-block;
+}
+
+.navlinks {
+  color: black;
+  text-decoration: none;
+  display: block;
+  padding: 10px;
+  margin: 5px 5px;
+  border: 2px #ffffff70 solid;
+}
+
+.navlinks:hover {
+  background-color: #ffffff16;
+}
+
+.social-media {
+  padding: 20px;
+  justify-content: center;
+  text-align: center;
+}
+.icon {
+  width: 10%;
+
+  height: auto;
+  margin: none;
+  padding: 20px;
+  /* border-radius: 50%; */
+}
+
+.form {
+  text-align: center;
+}
+
+.message {
+  padding: 10px;
+  padding-bottom: 12.5%;
+  text-align: center;
+  width: 75%;
+  font-size: 14pt;
+  margin: 10px;
+  font-family: "Roboto";
+  resize: none;
+}
+
+.input {
+  text-align: center;
+  width: 75%;
+  padding: 10px;
+  font-size: 14pt;
+  margin: 10px;
+}
+.submit {
+  width: 70%;
+  text-align: center;
+  padding: 10px;
+  font-size: 14pt;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.submit:hover {
+  background-color: rgb(145, 145, 145);
+}
+
+.form {
+  padding: none;
+  margin: 10px;
+}
+
+.social-media-links {
+  margin: none;
+  padding: none;
+}
+
+.large-logo {
+  background-image: url("logo.png");
+  background-size: 100%;
+  width: 200px;
+  height: 200px;
+  background-repeat: no-repeat;
+  text-indent: -99999px;
+  display: inline-block;
+}
+
+.main-text {
+  text-align: center;
+  width: 80%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.main-quote {
+  margin: 20px;
+  padding: 20px;
+}
+
+.about-me {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  float:center;
+  position: relative;
+  width: 30%;
+  padding-bottom : 30%; /* = width for a 1:1 aspect ratio */
+  margin:1.66%;
+  overflow:hidden;
+}
+
+.about-box {
+  border: 2px #161616 solid;
+  width: 25%;
+  height: 0;
+  padding-bottom: 25%;
+  /* text-align: center; */
+}
+
+.campfire{
+    width: 45%;
     padding: 20px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 100px;
-}
-
-.title{
-    color: #ffffff;
+    float: left;
     text-align: center;
-    font-size: 50px;
-
-}
-.subtitle{
-    font-size: 25px
 }
 
-ul li{
-    display: inline-block;
-}
-ul{
-    font-size: 20px;
-    margin: 0;
-    padding: 0;
-    list-style-type: none;
-    position: absolute;
-    top:0;
-    right:0;
-}
-
-img{
-    width: 100%;
-    margin: 0px;
-    padding: 0px;
-    
-}
-
-header{
-    padding: 20px;
-    background-color: #000000;
-
-    background-image: url("Landscape.jpeg");
-    position: center;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-position: top;
-    background-size: cover;
-}
-
-header .logo a{
-    background-image: url("LogoText.png");
-    background-size: 100%;
-    width: 200px;
-    height: 200px;
-    background-repeat: no-repeat;
-    text-indent: -99999px;
-    display: inline-block;
-}
-
-.navlinks{
-    color:black;
-    text-decoration: none;
-    display: block;
+.court{
+    width: 45%;
     padding: 10px;
-    margin: 5px 5px; 
-    border: 2px #ffffff70 solid;
-
+    float: right;
 }
 
-.navlinks:hover{
-     background-color: #ffffff16;
- }
-
- .social-media{
+.squirrel{
+    width: 45%;
     padding: 20px;
-    justify-content: center;
-    text-align: center;
- }
- .icon{
-    width: 20%;
-    height: auto;
-    margin: none;
+    float: left;
+}
+
+.scared{
+    width: 45%;
     padding: 20px;
-    /* border-radius: 50%; */
- } 
-
-.form{
+    float: right;
     text-align: center;
 }
 
-.message{
-    padding: 10px;
-    padding-bottom: 12.5%;
+.confidence{
+    width: 45%;
+    padding: 20px;
+    float: right;
     text-align: center;
-    width: 75%;
-    font-size: 14pt;
-    margin: 10px;
-    font-family: 'Roboto';
-    resize: none;
+}
+.bath{
+    width: 40%;
+    padding: 20px;
+    float: right;
 }
 
- .input{
-     text-align: center;
-     width: 75%;
-     padding: 10px;
-     font-size: 14pt;
-     margin: 10px;
- }
- .submit{
-     width: 70%;
-     text-align: center;
-     padding: 10px;
-     font-size: 14pt;
-     margin: 10px;
-     border-radius: 5px;
- }
-
- .submit:hover{
-    background-color: rgb(145, 145, 145);
- }
-
- .form{
-     padding: none;
-     margin: 10px;
- }
-
- .social-media-links{
-     margin: none;
-     padding: none;
- }
+.opening{
+    width: 45%;
+    padding: 20px;
+    float: left;
+    text-align: center;
+}
