@@ -233,6 +233,10 @@ header .logo a {
   display: none;
 }
 
+.very-small-screen{
+    display: none;
+}
+
 @media screen and (max-width: 807px) {
   .campfire {
     float: none;
@@ -307,13 +311,16 @@ header .logo a {
   }
 }
 
-@media screen and (max-width: 356px) {
-  header {
-    display: none;
-  }
-  .navlinks {
-    display: block;
-  }
+@media screen and (max-width: 396px) {
+    .large-logo{
+        background-image: url(LogoText.png);
+        height: auto;
+    }
+    .main{
+        margin-bottom: 200px;
+        box-sizing: border-box;
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 470px) {
