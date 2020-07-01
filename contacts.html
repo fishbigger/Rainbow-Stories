@@ -1,66 +1,105 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Rainbow Stories</title>
-    <link rel="stylesheet" href="styles.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap"
+      rel="stylesheet"
+    />
 
-        <!-- Favicons -->
-        <link rel="shortcut icon" href="favicon. ico" type="image/x-icon">
-        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?">
-        <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?">
-        <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?">
-        <link rel="manifest" href="site.webmanifest?">
-        <link rel="mask-icon" href="safari-pinned-tab.svg?" color="#0d8eff">
-        <meta name="msapplication-TileColor" content="#ffc40d">
-        <meta name="theme-color" content="#ffffff">
-</head>
-<body>
+    <!-- Favicons -->
+    <link rel="shortcut icon" href="favicon. ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png?" />
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png?" />
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png?" />
+    <link rel="manifest" href="site.webmanifest?" />
+    <link rel="mask-icon" href="safari-pinned-tab.svg?" color="#0d8eff" />
+    <meta name="msapplication-TileColor" content="#ffc40d" />
+    <meta name="theme-color" content="#ffffff" />
+  </head>
+  <body>
     <header>
-        <nav class="big-screen">
-            <ul>
-              <li><a class="navlinks" href="index.html">Home</a></li>
-              <li><a class="navlinks" href="story-telling.html">Story Telling</a></li>
-              <li><a class="navlinks" href="services.html">Services</a></li>
-              <li><a class="navlinks" href="contacts.html">Contacts</a></li>
-            </ul>
-          </nav>
-          <nav class="small-screen">
-            <ul>
-              <li><a class="navlinks" href="index.html">Home</a></li>
-              <li><a class="navlinks" href="story-telling.html">Story Telling</a></li>
-              <label class="drop-label" for="drop-check">...</label>
-              <input id="drop-check" type="checkbox">
-              <div class="dropdown">
-                <li><a class="navlinks" href="services.html">Services</a></li>
-                <li><a class="navlinks" href="contacts.html">Contacts</a></li>
-              </div>
-            </ul>
-          </nav>
-        <div class="logo"><a href="index.html">Rainbow Stories Logo</a></div>
-        <div class="main">
-            <h1 class="title">Contacts</h1>
-            <h2 class="subtitle title">I would love to hear from you</h2>
-        </div>
+      <nav class="big-screen">
+        <ul>
+          <li><a class="navlinks" href="index.html">Home</a></li>
+          <li>
+            <a class="navlinks" href="story-telling.html">Story Telling</a>
+          </li>
+          <li><a class="navlinks" href="services.html">Services</a></li>
+          <li><a class="navlinks" href="testimonials.html">Testimonials</a></li>
+          <li><a class="navlinks" href="contacts.html">Contacts</a></li>
+        </ul>
+      </nav>
+      <nav class="small-screen">
+        <ul>
+          <li><a class="navlinks" href="index.html">Home</a></li>
+          <li>
+            <a class="navlinks" href="story-telling.html">Story Telling</a>
+          </li>
+          <label class="drop-label" for="drop-check">...</label>
+          <input id="drop-check" type="checkbox" />
+          <div class="dropdown">
+            <li><a class="navlinks" href="contacts.html">Contacts</a></li>
+            <li><a class="navlinks" href="testimonials.html">Testimonials</a></li>
+            <li><a class="navlinks" href="services.html">Services</a></li>
+          </div>
+        </ul>
+      </nav>
+      <div class="logo"><a href="index.html">Rainbow Stories Logo</a></div>
+      <div class="main">
+        <h1 class="title">Contacts</h1>
+        <h2 class="subtitle title">I would love to hear from you</h2>
+      </div>
     </header>
 
     <div>
-        <form action="https://formspree.io/meqrlekp" method="POST" class="form">
-            <input type="text" class="input" name="name" placeholder="Enter your full name" required>
-            <input type="text" class="input" name="_replyto" placeholder="Enter your email address" required>
-            <textarea type="text" class="message" name="message" placeholder="Enter your message" required></textarea>
-    
-            <button class="submit" type="submit">Send</button>
-        </form>
-    </div>
-    
-    <section class="social-media">
-        <a class="social-media-links" href="https://twitter.com/stories_rainbow"><img class="icon" src="twitter.png" alt="Rainbow Stories Twitter"></a>
-        <a class="social-media-links" href="https://www.facebook.com/storiesrainbow"><img class="icon" src="facebook.png" alt="Rainbow Stories Facebook"></a>
-        <a class="social-media-links" href="https://www.instagram.com/_rainbow.stories/"><img class="icon" src="instagram.png" alt="Rainbow Stories Instagram"></a>
-    </section>
+      <form action="https://formspree.io/meqrlekp" method="POST" class="form">
+        <input
+          type="text"
+          class="input"
+          name="name"
+          placeholder="Enter your full name"
+          required
+        />
+        <input
+          type="text"
+          class="input"
+          name="_replyto"
+          placeholder="Enter your email address"
+          required
+        />
+        <textarea
+          type="text"
+          class="message"
+          name="message"
+          placeholder="Enter your message"
+          required
+        ></textarea>
 
-</body>
+        <button class="submit" type="submit">Send</button>
+      </form>
+    </div>
+
+    <section class="social-media">
+      <a class="social-media-links" href="https://twitter.com/stories_rainbow"
+        ><img class="icon" src="twitter.png" alt="Rainbow Stories Twitter"
+      /></a>
+      <a
+        class="social-media-links"
+        href="https://www.facebook.com/storiesrainbow"
+        ><img class="icon" src="facebook.png" alt="Rainbow Stories Facebook"
+      /></a>
+      <a
+        class="social-media-links"
+        href="https://www.instagram.com/_rainbow.stories/"
+        ><img class="icon" src="instagram.png" alt="Rainbow Stories Instagram"
+      /></a>
+    </section>
+    <footer>
+      © 2020 Rainbow Stories
+    </footer>
+  </body>
 </html>

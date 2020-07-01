@@ -3,6 +3,7 @@ body {
   padding: 0px;
   font-family: "Roboto";
   overflow-x: hidden;
+  font-size: 15pt;
 }
 
 .main {
@@ -26,10 +27,10 @@ body {
   font-size: 25px;
 }
 
-ul li {
+header ul li {
   display: inline-block;
 }
-ul {
+header ul {
   font-size: 20px;
   margin: 0;
   padding: 0;
@@ -57,6 +58,17 @@ header {
   background-size: cover;
 
   margin-bottom: 5%;
+}
+
+footer {
+    padding: 5px 20px;
+    background: black;
+    color: #ddd;
+    white-space: pre;
+    /* position:fixed; */
+    width: 100%;
+    bottom: 0px;
+    display: inline-block;
 }
 
 header .logo a {
@@ -158,9 +170,14 @@ header .logo a {
   margin-left: auto;
 }
 
+.text {
+    margin: 20px 20px 0px 20px;
+}
+
 .main-quote {
   margin: 20px;
   padding: 20px;
+  text-align: center;
 }
 
 .about-me {
@@ -212,15 +229,14 @@ header .logo a {
 
 .confidence {
   max-width: 45%;
-  padding: 20px;
+  padding: 0px 20px 20px 20px;
   float: right;
   text-align: center;
 }
 .campfire-img {
-  max-width: 40%;
-  padding: 20px;
+  width: 40%;
+  padding: 100px 40px 20px 20px;
   float: right;
-  padding-right: 40px;
 }
 
 .opening {
@@ -233,11 +249,38 @@ header .logo a {
   display: none;
 }
 
-.very-small-screen{
-    display: none;
+.services-intro {
+  text-align: center;
+  padding: 20px;
 }
 
-@media screen and (max-width: 807px) {
+.table {
+  padding: 20px;
+  width: 80%;
+  margin: auto;
+  border: 1px solid #333333;
+  margin-bottom: 40px;
+}
+
+th,
+td {
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+  text-align: left;
+}
+.contacts-link:visited {
+  color: #62a7e0;
+}
+
+.contacts-link:hover {
+  color: #528bb9;
+}
+.contacts-link {
+  color: #62a7e0;
+  text-decoration: none;
+}
+
+@media screen and (max-width: 931px) {
   .campfire {
     float: none;
     margin: auto;
@@ -298,7 +341,7 @@ header .logo a {
   }
 }
 
-@media screen and (max-width: 700px) {
+@media screen and (max-width: 863px) {
   .logo {
     /* float: none;
     padding-top: 40px;
@@ -312,23 +355,23 @@ header .logo a {
 }
 
 @media screen and (max-width: 396px) {
-    .large-logo{
-        background-image: url(LogoText.png);
-        height: auto;
-        background-position: center;
-        padding: auto;
-        background-size: 100%;
-        padding-bottom: 20px;
-    }
-    .main{
-        margin-bottom: 200px;
-        box-sizing: border-box;
-        width: 100%;
-        text-align: center;
-    }
+  .large-logo {
+    background-image: url(LogoText.png);
+    height: auto;
+    background-position: center;
+    padding: auto;
+    background-size: 100%;
+    padding-bottom: 20px;
+  }
+  .main {
+    margin-bottom: 200px;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+  }
 }
 
-@media screen and (max-width: 470px) {
+@media screen and (max-width: 624px) {
   .big-screen {
     display: none;
   }
@@ -355,7 +398,7 @@ header .logo a {
     display: block;
   }
 
-  #drop-check:checked ~ .dropdown li{
+  #drop-check:checked ~ .dropdown li {
     float: right;
   }
 }
