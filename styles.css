@@ -40,11 +40,11 @@ header ul {
   right: 0;
 }
 
-img {
+/* img {
   width: 100%;
   margin: 0px;
   padding: 0px;
-}
+} */
 
 header {
   padding: 20px;
@@ -280,7 +280,74 @@ td {
   text-decoration: none;
 }
 
+.testomonials-text{
+    text-align: center;
+    /* padding: 20px; */
+}
+
+.testomonials-text p{
+    padding: 15px;
+}
+
+.left{
+    float: left;
+    width: 45%;
+}
+
+.right{
+    float: right;
+    width: 45%;
+}
+
+.testomonials-img{
+    padding: 20px;
+    display: table;
+}
+
+.force-left{
+    margin-bottom: 180px;
+}
+
+.lensball{
+    margin-top: -160px;
+}
+
+.teachers{
+    text-align: center;
+    display: table;
+    width: 85%;
+    margin: auto;
+}
+
+@media screen and (min-width: 1310px) {
+    .lensball{
+        display: block;
+    }
+}
+
 @media screen and (max-width: 931px) {
+    .testomonials-text{
+        float: none;
+        margin: auto;
+        width: 75%;
+    }
+
+    .testomonials-img{
+        float: none;
+        margin: auto;
+        width: 75%;
+    }
+
+    .left{
+        float: none;
+        margin: auto;
+    }
+    .right{
+        float: none;
+        margin: auto;
+    }
+
+
   .campfire {
     float: none;
     margin: auto;
