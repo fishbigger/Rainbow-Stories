@@ -61,14 +61,17 @@ header {
 }
 
 footer {
-    padding: 5px 20px;
     background: black;
-    color: #ddd;
-    white-space: pre;
-    /* position:fixed; */
+
+    /* white-space: pre; */
     width: 100%;
     bottom: 0px;
     display: inline-block;
+}
+
+footer p {
+    margin: 20px 20px;
+    color: #ddd;
 }
 
 header .logo a {
@@ -79,6 +82,12 @@ header .logo a {
   background-repeat: no-repeat;
   text-indent: -99999px;
   display: inline-block;
+}
+
+.main-content{
+  width: 100%;
+  text-align: center;
+  margin: auto;
 }
 
 .navlinks {
@@ -280,14 +289,6 @@ td {
   text-decoration: none;
 }
 
-.testomonials-text{
-    text-align: center;
-    /* padding: 20px; */
-}
-
-.testomonials-text p{
-    padding: 15px;
-}
 
 .left{
     float: left;
@@ -302,15 +303,13 @@ td {
 .testomonials-img{
     padding: 20px;
     display: table;
+    width: 45%;
+    
 }
 
-.force-left{
-    margin-bottom: 180px;
-}
-
-.lensball{
-    margin-top: -160px;
-}
+/* .feedback-text{
+  width: 45%;
+} */
 
 .teachers{
     text-align: center;
@@ -325,8 +324,8 @@ td {
     }
 }
 
-@media screen and (max-width: 931px) {
-    .testomonials-text{
+@media screen and (max-width: 971px) {
+    .feedback-text{
         float: none;
         margin: auto;
         width: 75%;
@@ -408,6 +407,11 @@ td {
   }
 }
 
+@media screen and (min-width: 1300px) {
+  .main-content{
+    width: 1300px;
+  }
+}
 @media screen and (max-width: 863px) {
   .logo {
     /* float: none;
