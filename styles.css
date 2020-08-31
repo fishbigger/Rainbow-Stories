@@ -34,7 +34,7 @@ body {
 .story-nav ul li{
   display: inline-block;
   width: 25%;
-  margin: 2%;
+  margin: 2v%;
   padding: 0;
 }
 .main {
@@ -324,15 +324,21 @@ td {
 .left{
     float: left;
     width: 45%;
+    margin-left: 0;
+    margin-right: 10px;
+    /*position: absolute;*/
+    left: 10px;
 }
 
 .right{
     float: right;
     width: 45%;
+    margin-right: 0;
+    margin-left: 10px;
 }
 
 .testomonials-img{
-    padding: 20px;
+    padding: 10px;
     display: table;
     width: 45%;
     
