@@ -509,4 +509,8 @@ td {
   #drop-check:checked ~ .dropdown li {
     float: right;
   }
+
+  .story-nav-elements{
+    display: none;
+  }
 }
